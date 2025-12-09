@@ -1,0 +1,2026 @@
+<!DOCTYPE html>
+<html lang="vi" class="js csstransforms3d">
+  <head><script src="/fcj-workshop/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=fcj-workshop/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.150.0">
+    <meta
+  name="description"
+  content=""
+/>
+<meta name="author" content="khoi.dao2411@gmail.com" />
+
+    <link rel="icon" href="/fcj-workshop/images/favicon.png" type="image/png">
+
+    <title>Blog 1 :: Báo cáo thực tập</title>
+
+    
+    <link href="/fcj-workshop/css/nucleus.css?1765263611" rel="stylesheet">
+    <link href="/fcj-workshop/css/fontawesome-all.min.css?1765263611" rel="stylesheet">
+    <link href="/fcj-workshop/css/hybrid.css?1765263611" rel="stylesheet">
+    <link href="/fcj-workshop/css/featherlight.min.css?1765263611" rel="stylesheet">
+    <link href="/fcj-workshop/css/perfect-scrollbar.min.css?1765263611" rel="stylesheet">
+    <link href="/fcj-workshop/css/auto-complete.css?1765263611" rel="stylesheet">
+    <link href="/fcj-workshop/css/atom-one-dark-reasonable.css?1765263611" rel="stylesheet">
+    <link href="/fcj-workshop/css/theme.css?1765263611" rel="stylesheet">
+    <link href="/fcj-workshop/css/hugo-theme.css?1765263611" rel="stylesheet">
+    
+    <link href="/fcj-workshop/css/theme-workshop.css?1765263611" rel="stylesheet">
+    
+    
+
+    <script src="/fcj-workshop/js/jquery-3.3.1.min.js?1765263611"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+
+  </head>
+  <body class="" data-url="/fcj-workshop/vi/3-blogstranslated/3.1-blog1/">
+    <nav
+  id="sidebar"
+  class="showVisitedLinks"
+>
+   
+  <div id="header-wrapper">
+    <div id="header"><a id="logo" href="/">
+  <svg
+    id="Layer_1"
+    data-name="Layer 1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 60 30"
+    width="30%"
+  >
+    <defs>
+      <style>
+        .cls-1 {
+          fill: #fff;
+        }
+        .cls-2 {
+          fill: #f90;
+          fill-rule: evenodd;
+        }
+      </style>
+    </defs>
+    <title>AWS-Logo_White-Color</title>
+    <path
+      class="cls-1"
+      d="M14.09,10.85a4.7,4.7,0,0,0,.19,1.48,7.73,7.73,0,0,0,.54,1.19.77.77,0,0,1,.12.38.64.64,0,0,1-.32.49l-1,.7a.83.83,0,0,1-.44.15.69.69,0,0,1-.49-.23,3.8,3.8,0,0,1-.6-.77q-.25-.42-.51-1a6.14,6.14,0,0,1-4.89,2.3,4.54,4.54,0,0,1-3.32-1.19,4.27,4.27,0,0,1-1.22-3.2A4.28,4.28,0,0,1,3.61,7.75,6.06,6.06,0,0,1,7.69,6.46a12.47,12.47,0,0,1,1.76.13q.92.13,1.91.36V5.73a3.65,3.65,0,0,0-.79-2.66A3.81,3.81,0,0,0,7.86,2.3a7.71,7.71,0,0,0-1.79.22,12.78,12.78,0,0,0-1.79.57,4.55,4.55,0,0,1-.58.22l-.26,0q-.35,0-.35-.52V2a1.09,1.09,0,0,1,.12-.58,1.2,1.2,0,0,1,.47-.35A10.88,10.88,0,0,1,5.77.32,10.19,10.19,0,0,1,8.36,0a6,6,0,0,1,4.35,1.35,5.49,5.49,0,0,1,1.38,4.09ZM7.34,13.38a5.36,5.36,0,0,0,1.72-.31A3.63,3.63,0,0,0,10.63,12,2.62,2.62,0,0,0,11.19,11a5.63,5.63,0,0,0,.16-1.44v-.7a14.35,14.35,0,0,0-1.53-.28,12.37,12.37,0,0,0-1.56-.1,3.84,3.84,0,0,0-2.47.67A2.34,2.34,0,0,0,5,11a2.35,2.35,0,0,0,.61,1.76A2.4,2.4,0,0,0,7.34,13.38Zm13.35,1.8a1,1,0,0,1-.64-.16,1.3,1.3,0,0,1-.35-.65L15.81,1.51a3,3,0,0,1-.15-.67.36.36,0,0,1,.41-.41H17.7a1,1,0,0,1,.65.16,1.4,1.4,0,0,1,.33.65l2.79,11,2.59-11A1.17,1.17,0,0,1,24.39.6a1.1,1.1,0,0,1,.67-.16H26.4a1.1,1.1,0,0,1,.67.16,1.17,1.17,0,0,1,.32.65L30,12.39,32.88,1.25A1.39,1.39,0,0,1,33.22.6a1,1,0,0,1,.65-.16h1.54a.36.36,0,0,1,.41.41,1.36,1.36,0,0,1,0,.26,3.64,3.64,0,0,1-.12.41l-4,12.86a1.3,1.3,0,0,1-.35.65,1,1,0,0,1-.64.16H29.25a1,1,0,0,1-.67-.17,1.26,1.26,0,0,1-.32-.67L25.67,3.64,23.11,14.34a1.26,1.26,0,0,1-.32.67,1,1,0,0,1-.67.17Zm21.36.44a11.28,11.28,0,0,1-2.56-.29,7.44,7.44,0,0,1-1.92-.67,1,1,0,0,1-.61-.93v-.84q0-.52.38-.52a.9.9,0,0,1,.31.06l.42.17a8.77,8.77,0,0,0,1.83.58,9.78,9.78,0,0,0,2,.2,4.48,4.48,0,0,0,2.43-.55,1.76,1.76,0,0,0,.86-1.57,1.61,1.61,0,0,0-.45-1.16A4.29,4.29,0,0,0,43,9.22l-2.41-.76A5.15,5.15,0,0,1,38,6.78a3.94,3.94,0,0,1-.83-2.41,3.7,3.7,0,0,1,.45-1.85,4.47,4.47,0,0,1,1.19-1.37A5.27,5.27,0,0,1,40.51.29,7.4,7.4,0,0,1,42.6,0a8.87,8.87,0,0,1,1.12.07q.57.07,1.08.19t.95.26a4.27,4.27,0,0,1,.7.29,1.59,1.59,0,0,1,.49.41.94.94,0,0,1,.15.55v.79q0,.52-.38.52a1.76,1.76,0,0,1-.64-.2,7.74,7.74,0,0,0-3.2-.64,4.37,4.37,0,0,0-2.21.47,1.6,1.6,0,0,0-.79,1.48,1.58,1.58,0,0,0,.49,1.18,4.94,4.94,0,0,0,1.83.92L44.55,7a5.08,5.08,0,0,1,2.57,1.6A3.76,3.76,0,0,1,47.9,11a4.21,4.21,0,0,1-.44,1.93,4.4,4.4,0,0,1-1.21,1.47,5.43,5.43,0,0,1-1.85.93A8.25,8.25,0,0,1,42.05,15.62Z"
+    ></path>
+    <path
+      class="cls-2"
+      d="M45.19,23.81C39.72,27.85,31.78,30,25,30A36.64,36.64,0,0,1,.22,20.57c-.51-.46-.06-1.09.56-.74A49.78,49.78,0,0,0,25.53,26.4,49.23,49.23,0,0,0,44.4,22.53C45.32,22.14,46.1,23.14,45.19,23.81Z"
+    ></path>
+    <path
+      class="cls-2"
+      d="M47.47,21.21c-.7-.9-4.63-.42-6.39-.21-.53.06-.62-.4-.14-.74,3.13-2.2,8.27-1.57,8.86-.83s-.16,5.89-3.09,8.35c-.45.38-.88.18-.68-.32C46.69,25.8,48.17,22.11,47.47,21.21Z"
+    ></path>
+  </svg>
+</a>
+</div>
+     <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/fcj-workshop/js/lunr.min.js?1765263611"></script>
+<script type="text/javascript" src="/fcj-workshop/js/auto-complete.js?1765263611"></script>
+<script type="text/javascript">
+    
+        var baseurl = "http:\/\/localhost:1313\/fcj-workshop\/\/vi";
+    
+</script>
+<script type="text/javascript" src="/fcj-workshop/js/search.js?1765263611"></script>
+ 
+  </div>
+
+  <div class="highlightable">
+    <ul class="topics">
+               
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/"
+  title="Nhật ký công việc"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/">
+     <b> 1. </b> Nhật ký công việc 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.1-week1/"
+  title="Worklog Tuần 1"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.1-week1/">
+     <b> 1.1. </b> Worklog Tuần 1 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.2-week2/"
+  title="Worklog Tuần 2"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.2-week2/">
+     <b> 1.2. </b> Worklog Tuần 2 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.3-week3/"
+  title="Worklog Tuần 3"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.3-week3/">
+     <b> 1.3. </b> Worklog Tuần 3 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.4-week4/"
+  title="Worklog Tuần 4"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.4-week4/">
+     <b> 1.4. </b> Worklog Tuần 4 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.5-week5/"
+  title="Worklog Tuần 5"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.5-week5/">
+     <b> 1.5. </b> Worklog Tuần 5 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.6-week6/"
+  title="Worklog Tuần 6"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.6-week6/">
+     <b> 1.6. </b> Worklog Tuần 6 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.7-week7/"
+  title="Worklog Tuần 7"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.7-week7/">
+     <b> 1.7. </b> Worklog Tuần 7 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.8-week8/"
+  title="Worklog Tuần 8"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.8-week8/">
+     <b> 1.8. </b> Worklog Tuần 8 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.9-week9/"
+  title="Worklog Tuần 9"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.9-week9/">
+     <b> 1.9. </b> Worklog Tuần 9 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.10-week10/"
+  title="Worklog Tuần 10"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.10-week10/">
+     <b> 1.10. </b> Worklog Tuần 10 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.11-week11/"
+  title="Worklog Tuần 11"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.11-week11/">
+     <b> 1.11. </b> Worklog Tuần 11 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.12-week12/"
+  title="Worklog Tuần 12"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.12-week12/">
+     <b> 1.12 </b> Worklog Tuần 12 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/fcj-workshop/vi/2-proposal/"
+  title="Đề xuất dự án"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/2-proposal/">
+     <b> 2. </b> Đề xuất dự án 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+           
+<li
+  data-nav-id="/fcj-workshop/vi/3-blogstranslated/"
+  title="Các bài blogs đã dịch"
+  class="dd-item 
+        parent
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/3-blogstranslated/">
+     <b> 3. </b> Các bài blogs đã dịch 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/fcj-workshop/vi/3-blogstranslated/3.1-blog1/"
+  title="Blog 1"
+  class="dd-item 
+        
+        active
+        
+        "
+>
+  <a href="/fcj-workshop/vi/3-blogstranslated/3.1-blog1/">
+     <b> 3.1. </b> Blog 1 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/3-blogstranslated/3.2-blog2/"
+  title="Blog 2"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/3-blogstranslated/3.2-blog2/">
+     <b> 3.2. </b> Blog 2 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/3-blogstranslated/3.3-blog3/"
+  title="Blog 3"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/3-blogstranslated/3.3-blog3/">
+     <b> 3.3. </b> Blog 3 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/fcj-workshop/vi/4-eventparticipated/"
+  title="Các events đã tham gia"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/4-eventparticipated/">
+     <b> 4. </b> Các events đã tham gia 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/fcj-workshop/vi/4-eventparticipated/4.1-event1/"
+  title="Event 1"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/4-eventparticipated/4.1-event1/">
+     <b> 4.1. </b> Event 1 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/4-eventparticipated/4.2-event2/"
+  title="Event 2"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/4-eventparticipated/4.2-event2/">
+     <b> 4.2. </b> Event 2 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/4-eventparticipated/4.3-event3/"
+  title="Event 3"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/4-eventparticipated/4.3-event3/">
+     <b> 4.3. </b> Event 3 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/4-eventparticipated/4.4-event4/"
+  title="Event 4"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/4-eventparticipated/4.4-event4/">
+     <b> 4.4. </b> Event 4 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/"
+  title="Workshop"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/">
+     <b> 5. </b> Workshop 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.1-workshop-overview/"
+  title="Tổng quan Workshop"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.1-workshop-overview/">
+     <b> 5.1 </b> Tổng quan Workshop 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.2-prerequisite/"
+  title="Chuẩn bị &amp; Yêu cầu"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.2-prerequisite/">
+     <b> 5.2 </b> Chuẩn bị &amp; Yêu cầu 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.2-prerequiste/"
+  title="Các bước chuẩn bị"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.2-prerequiste/">
+     <b> 5.2. </b> Các bước chuẩn bị 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.3-deploy-infrastructure/"
+  title="Triển khai Infrastructure với CloudFormation"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.3-deploy-infrastructure/">
+     <b> 5.3 </b> Triển khai Infrastructure với CloudFormation 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.3-backend-deployment/"
+  title="Triển Khai Backend"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.3-backend-deployment/">
+     <b> 5.3. </b> Triển Khai Backend 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.3-backend-deployment/5.3.1-build-upload/"
+  title="Build và Upload Backend"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.3-backend-deployment/5.3.1-build-upload/">
+     <b> 5.3.1 </b> Build và Upload Backend 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.3-backend-deployment/5.3.2-deploy-ec2/"
+  title="Triển Khai lên EC2"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.3-backend-deployment/5.3.2-deploy-ec2/">
+     <b> 5.3.2 </b> Triển Khai lên EC2 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.4-deploy-backend/"
+  title="Triển khai Backend Application"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.4-deploy-backend/">
+     <b> 5.4 </b> Triển khai Backend Application 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.4-frontend-deployment/"
+  title="Triển Khai Frontend"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.4-frontend-deployment/">
+     <b> 5.4. </b> Triển Khai Frontend 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.4-frontend-deployment/5.4.1-prepare/"
+  title="Chuẩn Bị Môi Trường Frontend"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.4-frontend-deployment/5.4.1-prepare/">
+     <b> 5.4.1 </b> Chuẩn Bị Môi Trường Frontend 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.4-frontend-deployment/5.4.2-build/"
+  title="Build Ứng Dụng Frontend"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.4-frontend-deployment/5.4.2-build/">
+     <b> 5.4.2 </b> Build Ứng Dụng Frontend 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.4-frontend-deployment/5.4.3-deploy/"
+  title="Triển Khai lên S3 và CloudFront"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.4-frontend-deployment/5.4.3-deploy/">
+     <b> 5.4.3 </b> Triển Khai lên S3 và CloudFront 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.4-frontend-deployment/5.4.4-verify/"
+  title="Xác Minh Triển Khai Full Stack"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.4-frontend-deployment/5.4.4-verify/">
+     <b> 5.4.4 </b> Xác Minh Triển Khai Full Stack 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.5-deploy-frontend/"
+  title="Triển khai Frontend"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.5-deploy-frontend/">
+     <b> 5.5 </b> Triển khai Frontend 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.5-testing-monitoring/"
+  title="Kiểm Thử và Giám Sát"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.5-testing-monitoring/">
+     <b> 5.5. </b> Kiểm Thử và Giám Sát 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.6-testing/"
+  title="Kiểm tra và Xác thực"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.6-testing/">
+     <b> 5.6 </b> Kiểm tra và Xác thực 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.6-cleanup/"
+  title="Dọn Dẹp"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.6-cleanup/">
+     <b> 5.6. </b> Dọn Dẹp 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.7-monitoring/"
+  title="Giám sát và Xử lý sự cố"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.7-monitoring/">
+     <b> 5.7 </b> Giám sát và Xử lý sự cố 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.8-cleanup/"
+  title="Dọn dẹp tài nguyên"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.8-cleanup/">
+     <b> 5.8 </b> Dọn dẹp tài nguyên 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/fcj-workshop/vi/6-self-evaluation/"
+  title="Tự đánh giá"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/6-self-evaluation/">
+     <b> 6. </b> Tự đánh giá 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+           
+<li
+  data-nav-id="/fcj-workshop/vi/7-feedback/"
+  title="Chia sẻ, đóng góp ý kiến"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/7-feedback/">
+     <b> 7. </b> Chia sẻ, đóng góp ý kiến 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+    </ul>
+
+     
+    <section id="shortcuts">
+      <h3>
+        More
+      </h3>
+      <ul>
+        
+        <li>
+          <a class="padding" href="https://www.facebook.com/groups/awsstudygroupfcj/"
+            ><i class='fab fa-facebook'></i> AWS Study Group</a
+          >
+        </li>
+        
+      </ul>
+    </section>
+     
+    <section id="prefooter">
+      <hr />
+      <ul>
+        
+        <li>
+          <a class="padding">
+            <i class="fas fa-language fa-fw"></i>
+            <div class="select-style">
+              <select id="select-language" onchange="location = this.value;">
+                       
+                <option
+                  id="en"
+                  value="http://localhost:1313/fcj-workshop/3-blogstranslated/3.1-blog1/"
+                >
+                  English
+                </option>
+                            
+                <option
+                  id="vi"
+                  value="http://localhost:1313/fcj-workshop/vi/3-blogstranslated/3.1-blog1/"
+                  selected
+                >
+                  Tiếng Việt
+                </option>
+                   
+              </select>
+              <svg
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="255px"
+                height="255px"
+                viewBox="0 0 255 255"
+                style="enable-background: new 0 0 255 255"
+                xml:space="preserve"
+              >
+                <g>
+                  <g id="arrow-drop-down">
+                    <polygon points="0,63.75 127.5,191.25 255,63.75 		" />
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </a>
+        </li>
+         
+        <li>
+          <a class="padding" href="#" data-clear-history-toggle=""
+            ><i class="fas fa-history fa-fw"></i> Clear History</a
+          >
+        </li>
+        
+      </ul>
+    </section>
+    
+    <section id="footer"><left>
+    
+    <b> Workshop</b> <br>
+    <img src="https://hitwebcounter.com/counter/counter.php?page=7920860&style=0038&nbdigits=9&type=page&initCount=0"
+        title="Migrate" Alt="web counter" border="0" /></a> <br>
+    <b> <a href="https://cloudjourney.awsstudygroup.com/">Cloud Journey</a></b> <br>
+    <img src="https://hitwebcounter.com/counter/counter.php?page=7830807&style=0038&nbdigits=9&type=page&initCount=0"
+        title="Total CLoud Journey" Alt="web counter" border="0" />
+
+</left>
+<left>
+    <br>
+    <br>
+    <b>Last Updated</b><br>
+    <i>
+        <span id="lastUpdated" style="color:orange;"></span>
+    </i>
+
+    <script>
+        
+        const today = new Date();
+        
+        const formattedDate = today.toLocaleDateString('en-GB');
+        
+        document.getElementById('lastUpdated').textContent = formattedDate;
+    </script>
+</left>
+<left>
+    <br>
+    <br>
+    <b> Team </b> <br>
+
+    <i> <a href="https://www.facebook.com/groups/660548818043427" style="color:orange">First Cloud Journey </a> <br>
+
+    </i>
+</left>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+</section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/fcj-workshop/vi/'>Báo cáo thực tập</a> > <a href='/fcj-workshop/vi/3-blogstranslated/'>Các bài blogs đã dịch</a> > Blog 1
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+  <div class="wrapper"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#generative-ai-trí-tuệ-nhân-tạo-sáng-tạo-rút-ngắn-khoảng-cách-bằng-cách-phổ-biển-thông-tin-một-cách-kịp-thời">Generative AI (Trí Tuệ Nhân tạo sáng tạo): Rút ngắn khoảng cách bằng cách phổ biển thông tin một cách kịp thời</a></li>
+    <li><a href="#maxai--mang-đến-các-phản-hồi-thông-minh-và-thấu-hiểu">Max.AI : Mang đến các phản hồi thông minh và thấu hiểu</a></li>
+    <li><a href="#myelo--phá-vỡ-rào-cản-và-mở-rộng-phạm-vi-tiếp-cận-toàn-cầu-của-imf">Myelo : phá vỡ rào cản và mở rộng phạm vi tiếp cận toàn cầu của IMF</a></li>
+    <li><a href="#điều-gì-tiếp-theo-cho-myelo">Điều gì Tiếp theo cho Myelo</a></li>
+    <li><a href="#một-tương-lai-kết-nối-hơn-cá-nhân-hóa-hơn-và-lấy-bệnh-nhân-làm-trung-tâm">Một tương lai kết nối hơn, cá nhân hóa hơn và lấy bệnh nhân làm trung tâm.</a></li>
+  </ul>
+</nav></div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Blog 1
+            </h1>
+          
+
+        
+
+
+
+	<h1 id="imf-chatbot-myelo-biến-đổi-hổ-trợ-điều-trị-ung-thư-với-aws-bedroc-và-maxai"><strong>IMF chatbot Myelo biến đổi hổ trợ điều trị ung thư với AWS Bedroc và MAX.AI</strong></h1>
+<p><strong>Được viết bởi Sapna Kumar và Nickee Deleon | vào ngày 23 tháng 9 2025| tại trang  Amazon Bedrock, Artificial Intelligence, Customer Solutions, Generative AI, Healthcare, Nonprofit, Public Sector| Permalink</strong></p>
+<hr>
+<p>Được thành lập vào năm 1990, Quỹ U tủy Quốc tế (International Myeloma Foundation, IMF) là Qũy toàn cầu đầu tiên và lớn nhất đặc biệt nhấm đến đa u tủy. sứ mệnh của IMF là để cái thiện chất lượng cuộc sống của bệnh nhân u tủy, và cũng như đồng thời nỗ lực hướng tới phòng ngừa và chửa khỏi bệnh bằng cách tập trung vào bốn lĩnh vực trọng tâm : Nghiên cứu, Giáo dục, Hỗ Trợ. và Tuyên truyền. Vào tháng 9 năm 2024, tổ chức IMF đã triễn khai Myelo - Một trợ lý ảo được trang bị trí tuệ nhân tạo (AI) được xây dụng bằng cách sử dụng AWS and Max.AI, do ZS Associates phát triển.</p>
+<p>Bài đăng blog này nêu bật khả năng của Myelo trong việc cung cấp cho bệnh nhân u tủy, người chăm sóc và các chuyên gia y tế một nguồn thông tin đáng tin cậy, lin tục 24/7, có thể truy cập được từ mọi nơi trên thế giới, dựa trên sự đồng cảm, và có thể giao tiếp bằng nhiều ngôn ngữ</p>
+<hr>
+<h2 id="generative-ai-trí-tuệ-nhân-tạo-sáng-tạo-rút-ngắn-khoảng-cách-bằng-cách-phổ-biển-thông-tin-một-cách-kịp-thời">Generative AI (Trí Tuệ Nhân tạo sáng tạo): Rút ngắn khoảng cách bằng cách phổ biển thông tin một cách kịp thời</h2>
+<hr>
+<p>Trong 35 năm, IMF đã và đang hổ trợ nhu cầu thông tin của bệnh nhân thông qua thư viện mở rộng của mình với hơn 100 xuất bản đa ngôn ngữ, một trang web vững mạnh , và một đội ngũ InfoLine được đào đạo chuyên sâu để trả lời các câu hỏi qua điện thoại và email</p>
+<p>Tuy nhiên, IMF cẩn phải bắt kịp với lượng thông tin mới đang đổ về nhanh chóng (về nghiên cứu , phương pháp điều trị , phê duyệt thuốc, v.v), quản lý kho nội dung không ngừng gia tăng, và cung cấp thông tin nhanh chóng. cá nhân hóa đến cộng đồng đa u tủy mà tổ chức này phục vụ”</p>
+<p>Sự ra đời của của Generative AI đã lấp đầy cái nhu cầu này một cách hiệu quả và đầy năng suất, và Myelo đã trở thành 1 con chat bot trang bị trí tuệ nhân tạo AI đáng tin cậy của IMF- Giải đáp các câu hỏi và cung cấp thông tin cụ thể về bệnh đa u tủy một cách nhanh chóng, chính xác và đồng cảm</p>
+<p>Chatbot Myelo sử dụng generative AI để tìm và tổng kết thông tin từ kho kiến thức rộng sâu rộng của IMF, bao gồm các trang web, các file PDF, các video và các podcast. Nó đưa ra các phản hồi chuyên nghiệp, chính xác và nhân ái - từ các lựa chọn điều trị và thử nghiệm lâm sàng cho đến việc quản lý triệu chứng và chuẩn đoán - tất cả chỉ xảy ra trong vòng vài giây.</p>
+<p>Chatbot Myelo hỗ trợ đa ngôn ngữ và sẵn sàng 24/7, 365 ngày 1 năm- khiến nó trở thành một cứu cánh cho bệnh nhân và người chăm sóc, những người cần phải ra quyết định phức tạp vào bất cứ lúc nào. Oya Gillbert, một bệnh nhân đa u tủy và trưởng nhóm hỗ trợ nói:” có được khả năng truy cập và nói chuyện với Myelo và biết rằng bạn đang nhận được nguồn thông tin đáng tin cậy, đó là điểm mấu chốt-  Nguồn thông tin đáng tin cậy từ một tổ chức mà nó được tin tưởng trên toàn cầu, không chỉ tại Hoa Kỳ.</p>
+<p>Myelo tuy có thể phân tích các thuật ngữ y học phức tạp thành thông tin dễ hiểu hơn, nhưng điều quan trọng bạn cần lưu ý là nó không đưa ra các lời khuyên và chuẩn đoán y tế. Người dùng vẫn nên tham khảo ý kiến từ các chuyên gia chăm sóc sức khỏe để có được chăm sóc được cá nhân hóa.</p>
+<hr>
+<p><strong>AWS Bedrock: Là Một nền tảng vững chắc để duy trì Myelo</strong></p>
+<hr>
+<p>Myelo được xây dựng trên Amazon Bedrock, là một dịch vụ mà nó cho phép các tổ chức xây dựng và mở rộng các ứng dụng Generative AI sử dụng các ứng dụng nền tảng (foundation models FMs) - các mô hình ngôn ngữ lớn (Large Language Model - LLM) được huấn luyện trước trên các bộ dữ liệu rộng lớn. Bedrock loại trừ nhu cầu quản lý hạ tầng hoặc huấn luyện model từ đầu. giúp cho IMF  triển khai một cách nhanh chóng và an toàn.</p>
+<p>Cốt lõi khả năng xử lý ngôn ngữ của Myelo chính là Claude của Anthropic, Một mô hình LLM tiên tiến nhất được truy cập thông qua AWS Bedrock. Những khả năng lập luận vượt trội của Claude và cũng như sự trọng tâm an toàn của nó đặc biệt phù hợp cho các ứng dụng chăm sóc sức khỏe, mang lại sự thấu hiểu tinh tế về thuật ngữ y tế đồng thời duy trì các ranh giới thích hợp xung quanh lời khuyên y tế.</p>
+<p>Với Bedrock và Claude, tổ chức IMF có thể triển khai các công cụ để tóm tắt theo thời gian thực , trả lời câu hỏi, phân loại văn bản và truy xuất thông tin - tất cả đều được được tinh chỉnh bằng dữ liệu riêng của tổ chức này.</p>
+<hr>
+<h2 id="maxai--mang-đến-các-phản-hồi-thông-minh-và-thấu-hiểu">Max.AI : Mang đến các phản hồi thông minh và thấu hiểu</h2>
+<hr>
+<p>Cốt lỗi  trí tuệ của Myelo là Max.AI - là một nền tảng AI đẳng cấp doanh nghiệp được tạo ra bởi ZS Associates và được tích hợp với các dịch vụ của AWS. Max.AI cho phép Myelo xử lý và tổ chức một lượng lớn nội dung phi cấu trúc - từ các bản ghi chép và các file PDF cho đến cái bài báo trên web - vì vậy người dùng nhận được các phản hồi phong phú và chính xác mà còn kèm theo trích dẫn từ các nguồn đó.</p>
+<p>Sự kết hợp giữa khả năng doanh nghiệp của Max.AI và khả năng thấu hiểu ngôn ngữ tinh vi của Claude tạo ra một sức mạnh tổng hợp to lớn. Max.AI xử lý việc điều phối dữ liệu phức tạp và quản lý nội dung, trong khi đó Claude xử lý các truy vấn ngôn ngữ tự nhiên và tạo ra các phản hồi phù hợp với ngữ cảnh, đồng thời duy trì được giọng điệu thấu cảm cần thiết các việc hỗ trợ bệnh nhân ung thư</p>
+<p>Max.AI còn cho phép duy trì lịch sử của cuộc hội thoại, cung cấp các phản hồi có ngữ cảnh và được cá nhân hóa trong suốt quá trình trò chuyện. Nền tảng này còn hỗ trợ trải nghiệm người dùng một cách mượt mà trên mọi thiết bị, và người dùng thậm chí còn có thể tải đoạn chat của họ để tham khảo</p>
+<p>Được trang bị với các biện pháp bảo vệ đạo đức được tích hợp sẵn và quy tắc AI có trách nhiệm, Max.AI đảm bảo rằng mọi phản hồi mà Myelo  đưa ra đều an toàn và đáng tin cậy</p>
+<hr>
+<h2 id="myelo--phá-vỡ-rào-cản-và-mở-rộng-phạm-vi-tiếp-cận-toàn-cầu-của-imf">Myelo : phá vỡ rào cản và mở rộng phạm vi tiếp cận toàn cầu của IMF</h2>
+<hr>
+<p>Từ lúc nó được triển khai, Myelo đã trở thành yếu tố chính trên trang web của IMF, nơi mà nó xuất hiện dưới dạng một của sổ bật lên (pop up) , Người dùng đã hỏi nó về mói thứ từ “Các hướng dẫn phòng ngừa nhiễm trùng cho bệnh nhân u tủy nghĩa là gì?” cho đến “Số lượng không đủ, từ phân tích nhiễm sắc thể FISH của tôi có nghĩa là gì?”. Chỉ riêng năm 2024, Myelo đã gửi đi 16,883 yêu cầu thông tin. và trong nửa năm đầu của năm 2025, nó đã đáp lại hơn 55000 yêu cầu.</p>
+<p>Bằng cách giải quyết nhiều câu hỏi khẩn cấp và thường gập, Myelo đã giúp đội ngũ InfoLine của IMF giải quyết được nhiều nhu cầu phúc tạp và cá nhân. Khả năng đa ngôn ngữ của nó đã mở rộng phạm vi tiếp cận toàn cầu cho IMF</p>
+<p>Một bác sĩ tại Mỹ đã ca ngợi Myelo say khi dùng thử nó trong tiếng Tây Ban Nha:”không có hề có một câu hỏi nào bị trả lời sai trong suốt phiên kiểm thử đó, TUYỆT CÚ MÈO!”</p>
+<hr>
+<h2 id="điều-gì-tiếp-theo-cho-myelo">Điều gì Tiếp theo cho Myelo</h2>
+<hr>
+<p>Chắc chắn rồi, đây là bản dịch chuyên nghiệp cho cụm từ bạn yêu cầu:</p>
+<p>Mặc dù Myelo đã được triển khai thành công, đây mới chỉ là một cột mốc trên hành trình chuyển đổi số của IMF. Chatbot này vẫn liên tục được cải tiến dựa trên phản hồi của người dùng, bao gồm cả các đánh giá &ldquo;không thích&rdquo; (thumbs down) – yếu tố kích hoạt quy trình xem xét và tối ưu hóa nội bộ.
+Sắp tới, Myelo sẽ có khả năng:</p>
+<ul>
+<li>Cá nhân hóa phản hồi dựa trên hồ sơ người dùng và lịch sử trò chuyện.</li>
+<li>Tùy chỉnh thông tin bằng công nghệ hàng rào địa lý (geofencing – tùy biến dựa trên vị trí).</li>
+<li>Thực hiện các hành động kỹ thuật số thay mặt người dùng thông qua các tác nhân AI.</li>
+<li>Hiểu và phản hồi các truy vấn y khoa phức tạp hoặc có sắc thái tinh tế hơn.</li>
+<li>Cung cấp giao diện giọng nói, bổ sung khả năng nhận dạng và tổng hợp giọng nói.</li>
+<li>Đặt nền móng cho Nền tảng Tri thức về Bệnh Đa u tủy.
+Ngoài ra, một phiên bản Myelo dành riêng cho cộng đồng chuyên gia y tế cũng đang được phát triển. Hơn nữa, Myelo là một phần trong một hệ sinh thái kỹ thuật số lớn hơn mà IMF đang xây dựng: Nền tảng Tri thức về Bệnh Đa u tủy (Myeloma Knowledge Platform - MKP). Được xây dựng trên nền tảng AWS Data Lake for Nonprofits, MKP kết nối Myelo với các công cụ khác—chẳng hạn như công cụ tìm kiếm thử nghiệm lâm sàng—và khai phá những hiểu biết chuyên sâu bằng cách phân tích các dữ liệu vốn bị phân mảnh trước đây.
+Bằng cách xác định các mô thức chung từ các hệ thống này, MKP sẽ đưa ra những khuyến nghị được cá nhân hóa cho bệnh nhân, giúp họ định hướng trên hành trình chiến đấu với bệnh đa u tủy của riêng mình một cách rõ ràng và tự tin hơn.</li>
+</ul>
+<hr>
+<h2 id="một-tương-lai-kết-nối-hơn-cá-nhân-hóa-hơn-và-lấy-bệnh-nhân-làm-trung-tâm">Một tương lai kết nối hơn, cá nhân hóa hơn và lấy bệnh nhân làm trung tâm.</h2>
+<hr>
+<p>Khi IMF tiếp tục đổi mới tại điểm giao thoa giữa y tế và công nghệ, Myelo là một minh chứng điển hình cho thấy cách AI tạo sinh có thể được sử dụng một cách có trách nhiệm để trao quyền cho bệnh nhân, hỗ trợ người chăm sóc và giảm bớt gánh nặng của một căn bệnh phức tạp.
+Bằng việc cung cấp thông tin kịp thời, đáng tin cậy và đầy sự đồng cảm, Myelo không chỉ đơn thuần là một chatbot: Đây là một người bạn đồng hành kỹ thuật số giúp mọi người hiểu rõ hơn về cuộc sống chung với bệnh đa u tủy. Là một phần của Nền tảng Tri thức về Bệnh Đa u tủy, Myelo đánh dấu sự khởi đầu cho một tương lai kết nối hơn, cá nhân hóa hơn và lấy bệnh nhân làm trung tâm trong việc chăm sóc ung thư.
+IMF tin rằng bằng cách trang bị kiến thức về bệnh đa u tủy cho bệnh nhân, họ có thể đưa ra những quyết định sáng suốt về việc điều trị, tiếp cận các chuyên gia về đa u tủy tại khu vực của mình, tìm kiếm các phương pháp điều trị tốt nhất dành cho họ, và học hỏi những phương pháp thiết thực để chung sống tốt với căn bệnh này.
+Điều này hoàn toàn phù hợp với tầm nhìn của IMF: “Một thế giới nơi mọi bệnh nhân đa u tủy đều có thể sống một cuộc sống trọn vẹn nhất, không còn gánh nặng bệnh tật.”
+Để tìm hiểu thêm về tầm ảnh hưởng của Myelo hoặc cách khai phá sức mạnh của AI tạo sinh cho tổ chức phi lợi nhuận của bạn, hãy đăng ký tham gia Tuần lễ AI Tạo sinh cho Tổ chức Phi lợi nhuận của AWS (AWS Nonprofit Generative AI Week). Hãy tham gia cùng chúng tôi từ ngày 6 đến 9 tháng 10 năm 2025 để có một trải nghiệm học tập trực tuyến chuyên sâu, được thiết kế dành cho các nhà lãnh đạo, chuyên gia công nghệ và nhà đổi mới trong lĩnh vực phi lợi nhuận, nhằm khám phá cách AI tạo sinh có thể thúc đẩy sứ mệnh của tổ chức bạn.</p>
+<hr>
+
+
+
+
+
+<footer class=" footline" >
+	
+</footer>
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/fcj-workshop/vi/3-blogstranslated/" title="Các bài blogs đã dịch"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/fcj-workshop/vi/3-blogstranslated/3.2-blog2/" title="Blog 2" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/fcj-workshop/js/clipboard.min.js?1765263611"></script>
+    <script src="/fcj-workshop/js/perfect-scrollbar.min.js?1765263611"></script>
+    <script src="/fcj-workshop/js/perfect-scrollbar.jquery.min.js?1765263611"></script>
+    <script src="/fcj-workshop/js/jquery.sticky.js?1765263611"></script>
+    <script src="/fcj-workshop/js/featherlight.min.js?1765263611"></script>
+    <script src="/fcj-workshop/js/highlight.pack.js?1765263611"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/fcj-workshop/js/modernizr.custom-3.6.0.js?1765263611"></script>
+    <script src="/fcj-workshop/js/learn.js?1765263611"></script>
+    <script src="/fcj-workshop/js/hugo-learn.js?1765263611"></script>
+
+    <link href="/fcj-workshop/mermaid/mermaid.css?1765263611" rel="stylesheet" />
+    <script src="/fcj-workshop/mermaid/mermaid.js?1765263611"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    <script>
+  (function (i, s, o, g, r, a, m) {
+    i["GoogleAnalyticsObject"] = r;
+    ((i[r] =
+      i[r] ||
+      function () {
+        (i[r].q = i[r].q || []).push(arguments);
+      }),
+      (i[r].l = 1 * new Date()));
+    ((a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]));
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m);
+  })(
+    window,
+    document,
+    "script",
+    "https://www.google-analytics.com/analytics.js",
+    "ga",
+  );
+
+  ga("create", "UA-158079754-2", "auto");
+  ga("send", "pageview");
+</script>
+
+  </body>
+</html>
+

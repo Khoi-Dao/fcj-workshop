@@ -1,4 +1,5 @@
 baseURL = "https://khoi-dao.github.io/fcj-workshop/"
+publishDir = "docs"
 relativeURLs = false
 canonifyURLs = false
 
