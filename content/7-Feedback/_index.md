@@ -34,7 +34,7 @@ The company offers flexible working hours when needed. In addition, having the o
 
 ### Additional Questions
 - What did you find **most satisfying** during your internship? 
-  +Mentor and FCJ team members are all wonderful people as I stated  in section 1 and 2
+  + Mentor and FCJ team members are all wonderful people as I stated  in section 1 and 2
 - What do you think the company **should improve** for future interns?
   + Due to the limitation of my knowledge and Experience, I am not able to point out  
 - If recommending to a friend, would you **suggest they intern here**? Why or why not?
