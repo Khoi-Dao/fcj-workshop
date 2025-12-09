@@ -1,0 +1,1950 @@
+<!DOCTYPE html>
+<html lang="vi" class="js csstransforms3d">
+  <head><script src="/fcj-workshop/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=fcj-workshop/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.150.0">
+    <meta
+  name="description"
+  content=""
+/>
+<meta name="author" content="khoi.dao2411@gmail.com" />
+
+    <link rel="icon" href="/fcj-workshop/images/favicon.png" type="image/png">
+
+    <title>Bản đề xuất :: Báo cáo thực tập</title>
+
+    
+    <link href="/fcj-workshop/css/nucleus.css?1765262421" rel="stylesheet">
+    <link href="/fcj-workshop/css/fontawesome-all.min.css?1765262421" rel="stylesheet">
+    <link href="/fcj-workshop/css/hybrid.css?1765262421" rel="stylesheet">
+    <link href="/fcj-workshop/css/featherlight.min.css?1765262421" rel="stylesheet">
+    <link href="/fcj-workshop/css/perfect-scrollbar.min.css?1765262421" rel="stylesheet">
+    <link href="/fcj-workshop/css/auto-complete.css?1765262421" rel="stylesheet">
+    <link href="/fcj-workshop/css/atom-one-dark-reasonable.css?1765262421" rel="stylesheet">
+    <link href="/fcj-workshop/css/theme.css?1765262421" rel="stylesheet">
+    <link href="/fcj-workshop/css/hugo-theme.css?1765262421" rel="stylesheet">
+    
+    <link href="/fcj-workshop/css/theme-workshop.css?1765262421" rel="stylesheet">
+    
+    
+
+    <script src="/fcj-workshop/js/jquery-3.3.1.min.js?1765262421"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+
+  </head>
+  <body class="" data-url="/fcj-workshop/vi/2-proposal/">
+    <nav
+  id="sidebar"
+  class="showVisitedLinks"
+>
+   
+  <div id="header-wrapper">
+    <div id="header"><a id="logo" href="/">
+  <svg
+    id="Layer_1"
+    data-name="Layer 1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 60 30"
+    width="30%"
+  >
+    <defs>
+      <style>
+        .cls-1 {
+          fill: #fff;
+        }
+        .cls-2 {
+          fill: #f90;
+          fill-rule: evenodd;
+        }
+      </style>
+    </defs>
+    <title>AWS-Logo_White-Color</title>
+    <path
+      class="cls-1"
+      d="M14.09,10.85a4.7,4.7,0,0,0,.19,1.48,7.73,7.73,0,0,0,.54,1.19.77.77,0,0,1,.12.38.64.64,0,0,1-.32.49l-1,.7a.83.83,0,0,1-.44.15.69.69,0,0,1-.49-.23,3.8,3.8,0,0,1-.6-.77q-.25-.42-.51-1a6.14,6.14,0,0,1-4.89,2.3,4.54,4.54,0,0,1-3.32-1.19,4.27,4.27,0,0,1-1.22-3.2A4.28,4.28,0,0,1,3.61,7.75,6.06,6.06,0,0,1,7.69,6.46a12.47,12.47,0,0,1,1.76.13q.92.13,1.91.36V5.73a3.65,3.65,0,0,0-.79-2.66A3.81,3.81,0,0,0,7.86,2.3a7.71,7.71,0,0,0-1.79.22,12.78,12.78,0,0,0-1.79.57,4.55,4.55,0,0,1-.58.22l-.26,0q-.35,0-.35-.52V2a1.09,1.09,0,0,1,.12-.58,1.2,1.2,0,0,1,.47-.35A10.88,10.88,0,0,1,5.77.32,10.19,10.19,0,0,1,8.36,0a6,6,0,0,1,4.35,1.35,5.49,5.49,0,0,1,1.38,4.09ZM7.34,13.38a5.36,5.36,0,0,0,1.72-.31A3.63,3.63,0,0,0,10.63,12,2.62,2.62,0,0,0,11.19,11a5.63,5.63,0,0,0,.16-1.44v-.7a14.35,14.35,0,0,0-1.53-.28,12.37,12.37,0,0,0-1.56-.1,3.84,3.84,0,0,0-2.47.67A2.34,2.34,0,0,0,5,11a2.35,2.35,0,0,0,.61,1.76A2.4,2.4,0,0,0,7.34,13.38Zm13.35,1.8a1,1,0,0,1-.64-.16,1.3,1.3,0,0,1-.35-.65L15.81,1.51a3,3,0,0,1-.15-.67.36.36,0,0,1,.41-.41H17.7a1,1,0,0,1,.65.16,1.4,1.4,0,0,1,.33.65l2.79,11,2.59-11A1.17,1.17,0,0,1,24.39.6a1.1,1.1,0,0,1,.67-.16H26.4a1.1,1.1,0,0,1,.67.16,1.17,1.17,0,0,1,.32.65L30,12.39,32.88,1.25A1.39,1.39,0,0,1,33.22.6a1,1,0,0,1,.65-.16h1.54a.36.36,0,0,1,.41.41,1.36,1.36,0,0,1,0,.26,3.64,3.64,0,0,1-.12.41l-4,12.86a1.3,1.3,0,0,1-.35.65,1,1,0,0,1-.64.16H29.25a1,1,0,0,1-.67-.17,1.26,1.26,0,0,1-.32-.67L25.67,3.64,23.11,14.34a1.26,1.26,0,0,1-.32.67,1,1,0,0,1-.67.17Zm21.36.44a11.28,11.28,0,0,1-2.56-.29,7.44,7.44,0,0,1-1.92-.67,1,1,0,0,1-.61-.93v-.84q0-.52.38-.52a.9.9,0,0,1,.31.06l.42.17a8.77,8.77,0,0,0,1.83.58,9.78,9.78,0,0,0,2,.2,4.48,4.48,0,0,0,2.43-.55,1.76,1.76,0,0,0,.86-1.57,1.61,1.61,0,0,0-.45-1.16A4.29,4.29,0,0,0,43,9.22l-2.41-.76A5.15,5.15,0,0,1,38,6.78a3.94,3.94,0,0,1-.83-2.41,3.7,3.7,0,0,1,.45-1.85,4.47,4.47,0,0,1,1.19-1.37A5.27,5.27,0,0,1,40.51.29,7.4,7.4,0,0,1,42.6,0a8.87,8.87,0,0,1,1.12.07q.57.07,1.08.19t.95.26a4.27,4.27,0,0,1,.7.29,1.59,1.59,0,0,1,.49.41.94.94,0,0,1,.15.55v.79q0,.52-.38.52a1.76,1.76,0,0,1-.64-.2,7.74,7.74,0,0,0-3.2-.64,4.37,4.37,0,0,0-2.21.47,1.6,1.6,0,0,0-.79,1.48,1.58,1.58,0,0,0,.49,1.18,4.94,4.94,0,0,0,1.83.92L44.55,7a5.08,5.08,0,0,1,2.57,1.6A3.76,3.76,0,0,1,47.9,11a4.21,4.21,0,0,1-.44,1.93,4.4,4.4,0,0,1-1.21,1.47,5.43,5.43,0,0,1-1.85.93A8.25,8.25,0,0,1,42.05,15.62Z"
+    ></path>
+    <path
+      class="cls-2"
+      d="M45.19,23.81C39.72,27.85,31.78,30,25,30A36.64,36.64,0,0,1,.22,20.57c-.51-.46-.06-1.09.56-.74A49.78,49.78,0,0,0,25.53,26.4,49.23,49.23,0,0,0,44.4,22.53C45.32,22.14,46.1,23.14,45.19,23.81Z"
+    ></path>
+    <path
+      class="cls-2"
+      d="M47.47,21.21c-.7-.9-4.63-.42-6.39-.21-.53.06-.62-.4-.14-.74,3.13-2.2,8.27-1.57,8.86-.83s-.16,5.89-3.09,8.35c-.45.38-.88.18-.68-.32C46.69,25.8,48.17,22.11,47.47,21.21Z"
+    ></path>
+  </svg>
+</a>
+</div>
+     <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/fcj-workshop/js/lunr.min.js?1765262421"></script>
+<script type="text/javascript" src="/fcj-workshop/js/auto-complete.js?1765262421"></script>
+<script type="text/javascript">
+    
+        var baseurl = "http:\/\/localhost:1313\/fcj-workshop\/\/vi";
+    
+</script>
+<script type="text/javascript" src="/fcj-workshop/js/search.js?1765262421"></script>
+ 
+  </div>
+
+  <div class="highlightable">
+    <ul class="topics">
+               
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/"
+  title="Nhật ký công việc"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/">
+     <b> 1. </b> Nhật ký công việc 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.1-week1/"
+  title="Worklog Tuần 1"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.1-week1/">
+     <b> 1.1. </b> Worklog Tuần 1 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.2-week2/"
+  title="Worklog Tuần 2"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.2-week2/">
+     <b> 1.2. </b> Worklog Tuần 2 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.3-week3/"
+  title="Worklog Tuần 3"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.3-week3/">
+     <b> 1.3. </b> Worklog Tuần 3 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.4-week4/"
+  title="Worklog Tuần 4"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.4-week4/">
+     <b> 1.4. </b> Worklog Tuần 4 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.5-week5/"
+  title="Worklog Tuần 5"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.5-week5/">
+     <b> 1.5. </b> Worklog Tuần 5 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.6-week6/"
+  title="Worklog Tuần 6"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.6-week6/">
+     <b> 1.6. </b> Worklog Tuần 6 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.7-week7/"
+  title="Worklog Tuần 7"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.7-week7/">
+     <b> 1.7. </b> Worklog Tuần 7 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.8-week8/"
+  title="Worklog Tuần 8"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.8-week8/">
+     <b> 1.8. </b> Worklog Tuần 8 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.9-week9/"
+  title="Worklog Tuần 9"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.9-week9/">
+     <b> 1.9. </b> Worklog Tuần 9 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.10-week10/"
+  title="Worklog Tuần 10"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.10-week10/">
+     <b> 1.10. </b> Worklog Tuần 10 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.11-week11/"
+  title="Worklog Tuần 11"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.11-week11/">
+     <b> 1.11. </b> Worklog Tuần 11 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/1-worklog/1.12-week12/"
+  title="Worklog Tuần 12"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/1-worklog/1.12-week12/">
+     <b> 1.12 </b> Worklog Tuần 12 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/fcj-workshop/vi/2-proposal/"
+  title="Bản đề xuất"
+  class="dd-item 
+        
+        active
+        
+        "
+>
+  <a href="/fcj-workshop/vi/2-proposal/">
+     <b> 2. </b> Bản đề xuất 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+           
+<li
+  data-nav-id="/fcj-workshop/vi/3-blogstranslated/"
+  title="Các bài blogs đã dịch"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/3-blogstranslated/">
+     <b> 3. </b> Các bài blogs đã dịch 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/fcj-workshop/vi/3-blogstranslated/3.1-blog1/"
+  title="Blog 1"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/3-blogstranslated/3.1-blog1/">
+     <b> 3.1. </b> Blog 1 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/3-blogstranslated/3.2-blog2/"
+  title="Blog 2"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/3-blogstranslated/3.2-blog2/">
+     <b> 3.2. </b> Blog 2 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/3-blogstranslated/3.3-blog3/"
+  title="Blog 3"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/3-blogstranslated/3.3-blog3/">
+     <b> 3.3. </b> Blog 3 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/fcj-workshop/vi/4-eventparticipated/"
+  title="Các events đã tham gia"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/4-eventparticipated/">
+     <b> 4. </b> Các events đã tham gia 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/fcj-workshop/vi/4-eventparticipated/4.1-event1/"
+  title="Event 1"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/4-eventparticipated/4.1-event1/">
+     <b> 4.1. </b> Event 1 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/4-eventparticipated/4.2-event2/"
+  title="Event 2"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/4-eventparticipated/4.2-event2/">
+     <b> 4.2. </b> Event 2 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/4-eventparticipated/4.3-event3/"
+  title="Event 3"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/4-eventparticipated/4.3-event3/">
+     <b> 4.3. </b> Event 3 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/4-eventparticipated/4.4-event4/"
+  title="Event 4"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/4-eventparticipated/4.4-event4/">
+     <b> 4.4. </b> Event 4 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/"
+  title="Workshop"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/">
+     <b> 5. </b> Workshop 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.1-workshop-overview/"
+  title="Giới thiệu"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.1-workshop-overview/">
+     <b> 5.1. </b> Giới thiệu 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.2-prerequiste/"
+  title="Các bước chuẩn bị"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.2-prerequiste/">
+     <b> 5.2. </b> Các bước chuẩn bị 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.3-backend-deployment/"
+  title="Triển Khai Backend"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.3-backend-deployment/">
+     <b> 5.3. </b> Triển Khai Backend 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.3-backend-deployment/5.3.1-build-upload/"
+  title="Build và Upload Backend"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.3-backend-deployment/5.3.1-build-upload/">
+     <b> 5.3.1 </b> Build và Upload Backend 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.3-backend-deployment/5.3.2-deploy-ec2/"
+  title="Triển Khai lên EC2"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.3-backend-deployment/5.3.2-deploy-ec2/">
+     <b> 5.3.2 </b> Triển Khai lên EC2 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.4-frontend-deployment/"
+  title="Triển Khai Frontend"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.4-frontend-deployment/">
+     <b> 5.4. </b> Triển Khai Frontend 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.4-frontend-deployment/5.4.1-prepare/"
+  title="Chuẩn Bị Môi Trường Frontend"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.4-frontend-deployment/5.4.1-prepare/">
+     <b> 5.4.1 </b> Chuẩn Bị Môi Trường Frontend 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.4-frontend-deployment/5.4.2-build/"
+  title="Build Ứng Dụng Frontend"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.4-frontend-deployment/5.4.2-build/">
+     <b> 5.4.2 </b> Build Ứng Dụng Frontend 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.4-frontend-deployment/5.4.3-deploy/"
+  title="Triển Khai lên S3 và CloudFront"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.4-frontend-deployment/5.4.3-deploy/">
+     <b> 5.4.3 </b> Triển Khai lên S3 và CloudFront 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.4-frontend-deployment/5.4.4-verify/"
+  title="Xác Minh Triển Khai Full Stack"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.4-frontend-deployment/5.4.4-verify/">
+     <b> 5.4.4 </b> Xác Minh Triển Khai Full Stack 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.5-testing-monitoring/"
+  title="Kiểm Thử và Giám Sát"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.5-testing-monitoring/">
+     <b> 5.5. </b> Kiểm Thử và Giám Sát 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/fcj-workshop/vi/5-workshop/5.6-cleanup/"
+  title="Dọn Dẹp"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/5-workshop/5.6-cleanup/">
+     <b> 5.6. </b> Dọn Dẹp 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/fcj-workshop/vi/6-self-evaluation/"
+  title="Tự đánh giá"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/6-self-evaluation/">
+     <b> 6. </b> Tự đánh giá 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+           
+<li
+  data-nav-id="/fcj-workshop/vi/7-feedback/"
+  title="Chia sẻ, đóng góp ý kiến"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/fcj-workshop/vi/7-feedback/">
+     <b> 7. </b> Chia sẻ, đóng góp ý kiến 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+    </ul>
+
+     
+    <section id="shortcuts">
+      <h3>
+        More
+      </h3>
+      <ul>
+        
+        <li>
+          <a class="padding" href="https://www.facebook.com/groups/awsstudygroupfcj/"
+            ><i class='fab fa-facebook'></i> AWS Study Group</a
+          >
+        </li>
+        
+      </ul>
+    </section>
+     
+    <section id="prefooter">
+      <hr />
+      <ul>
+        
+        <li>
+          <a class="padding">
+            <i class="fas fa-language fa-fw"></i>
+            <div class="select-style">
+              <select id="select-language" onchange="location = this.value;">
+                       
+                <option
+                  id="en"
+                  value="http://localhost:1313/fcj-workshop/2-proposal/"
+                >
+                  English
+                </option>
+                            
+                <option
+                  id="vi"
+                  value="http://localhost:1313/fcj-workshop/vi/2-proposal/"
+                  selected
+                >
+                  Tiếng Việt
+                </option>
+                   
+              </select>
+              <svg
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="255px"
+                height="255px"
+                viewBox="0 0 255 255"
+                style="enable-background: new 0 0 255 255"
+                xml:space="preserve"
+              >
+                <g>
+                  <g id="arrow-drop-down">
+                    <polygon points="0,63.75 127.5,191.25 255,63.75 		" />
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </a>
+        </li>
+         
+        <li>
+          <a class="padding" href="#" data-clear-history-toggle=""
+            ><i class="fas fa-history fa-fw"></i> Clear History</a
+          >
+        </li>
+        
+      </ul>
+    </section>
+    
+    <section id="footer"><left>
+    
+    <b> Workshop</b> <br>
+    <img src="https://hitwebcounter.com/counter/counter.php?page=7920860&style=0038&nbdigits=9&type=page&initCount=0"
+        title="Migrate" Alt="web counter" border="0" /></a> <br>
+    <b> <a href="https://cloudjourney.awsstudygroup.com/">Cloud Journey</a></b> <br>
+    <img src="https://hitwebcounter.com/counter/counter.php?page=7830807&style=0038&nbdigits=9&type=page&initCount=0"
+        title="Total CLoud Journey" Alt="web counter" border="0" />
+
+</left>
+<left>
+    <br>
+    <br>
+    <b>Last Updated</b><br>
+    <i>
+        <span id="lastUpdated" style="color:orange;"></span>
+    </i>
+
+    <script>
+        
+        const today = new Date();
+        
+        const formattedDate = today.toLocaleDateString('en-GB');
+        
+        document.getElementById('lastUpdated').textContent = formattedDate;
+    </script>
+</left>
+<left>
+    <br>
+    <br>
+    <b> Team </b> <br>
+
+    <i> <a href="https://www.facebook.com/groups/660548818043427" style="color:orange">First Cloud Journey </a> <br>
+
+    </i>
+</left>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+</section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            <a href='/fcj-workshop/vi/'>Báo cáo thực tập</a> > Bản đề xuất
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+  <div class="wrapper"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#giải-pháp-aws-cho-phần-mềm-hỗ-trợ-hiến-máu">Giải pháp AWS cho Phần mềm Hỗ trợ Hiến máu</a>
+      <ul>
+        <li><a href="#1-tóm-tắt-điều-hành">1. Tóm tắt điều hành</a></li>
+        <li><a href="#2-tuyên-bố-vấn-đề">2. Tuyên bố vấn đề</a></li>
+        <li><a href="#vấn-đề-là-gì">Vấn đề là gì?</a></li>
+        <li><a href="#giải-pháp">Giải pháp</a></li>
+        <li><a href="#lợi-ích-và-hoàn-vốn-đầu-tư">Lợi ích và Hoàn vốn đầu tư</a></li>
+        <li><a href="#3-kiến-trúc-giải-pháp">3. Kiến trúc giải pháp</a></li>
+        <li><a href="#4-triển-khai-kỹ-thuật">4. Triển khai kỹ thuật</a></li>
+        <li><a href="#5-lộ-trình--mốc-triển-khai">5. Lộ trình &amp; Mốc triển khai</a></li>
+        <li><a href="#6-ước-tính-ngân-sách">6. Ước tính ngân sách</a></li>
+        <li><a href="#7-đánh-giá-rủi-ro">7. Đánh giá rủi ro</a></li>
+        <li><a href="#8-kết-quả-kỳ-vọng">8. Kết quả kỳ vọng</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Bản đề xuất
+            </h1>
+          
+
+        
+
+
+
+	<p>Trong phần này, bạn cần tóm tắt các nội dung của workshop mà bạn <strong>dự định</strong> sẽ thực hiện.</p>
+<h1 id="hệ-thống-hỗ-trợ-hiến-máu">Hệ thống Hỗ trợ Hiến máu</h1>
+<h2 id="giải-pháp-aws-cho-phần-mềm-hỗ-trợ-hiến-máu">Giải pháp AWS cho Phần mềm Hỗ trợ Hiến máu</h2>
+<h3 id="1-tóm-tắt-điều-hành">1. Tóm tắt điều hành</h3>
+<p><strong>Hệ thống Hỗ trợ Hiến máu (BDSS)</strong> là một nền tảng web hỗ trợ quản lý và kết nối người hiến máu với các cơ sở y tế. Dự án được phát triển bởi một nhóm sinh viên tại Thành phố Hồ Chí Minh nhằm tối ưu hóa quy trình hiến máu, giảm gánh nặng tìm kiếm người hiến máu và cải thiện hiệu quả giao tiếp y tế.</p>
+<p>Hệ thống được xây dựng trên <strong>kiến trúc AWS Cloud</strong>, sử dụng <strong>Amazon EC2</strong>, <strong>Amazon RDS</strong>, <strong>API Gateway</strong>, <strong>Cognito</strong> và <strong>CI/CD Pipeline (GitLab + CodePipeline)</strong> để triển khai tự động. BDSS hỗ trợ bốn nhóm người dùng (Guest, Member, Staff, Admin), cung cấp các tính năng tìm kiếm, đăng ký hiến máu, quản lý ngân hàng máu, theo dõi quy trình hiến máu và báo cáo trực quan.</p>
+<h3 id="2-tuyên-bố-vấn-đề">2. Tuyên bố vấn đề</h3>
+<h3 id="vấn-đề-là-gì">Vấn đề là gì?</h3>
+<p>Các cơ sở y tế hiện đang quản lý quy trình hiến máu thủ công hoặc thông qua các công cụ rời rạc. Việc tìm kiếm người hiến máu phù hợp về nhóm máu hoặc khu vực là khó khăn, đặc biệt trong các tình huống khẩn cấp. Ngoài ra, các hệ thống lưu trữ dữ liệu không được đồng bộ hóa, gây khó khăn cho việc phân tích, báo cáo và tối ưu hóa các chiến dịch hiến máu.</p>
+<h3 id="giải-pháp">Giải pháp</h3>
+<p>Phát triển một <strong>nền tảng hỗ trợ hiến máu toàn diện trên AWS Cloud</strong>, với các chức năng quản lý hiến máu, tìm kiếm người hiến máu và người cần máu theo nhóm máu hoặc vị trí địa lý, tích hợp xác thực người dùng qua Amazon Cognito, và quản trị dữ liệu trên Amazon RDS. Frontend được triển khai qua <strong>Route 53 + CloudFront</strong>, backend qua <strong>API Gateway – EC2</strong>, cơ sở dữ liệu MySQL trên <strong>Amazon RDS</strong>, và pipeline CI/CD tự động sử dụng <strong>GitLab – CodePipeline</strong>.</p>
+<h3 id="lợi-ích-và-hoàn-vốn-đầu-tư">Lợi ích và Hoàn vốn đầu tư</h3>
+<p>Giảm 60–70% thời gian tìm kiếm người hiến máu phù hợp. Tăng độ chính xác của thông tin nhóm máu và vị trí. Tối ưu hóa chi phí vận hành với kiến trúc cloud linh hoạt, trả tiền theo sử dụng. Cải thiện phản ứng với các tình huống khẩn cấp về máu</p>
+<h3 id="3-kiến-trúc-giải-pháp">3. Kiến trúc giải pháp</h3>
+<p>Nền tảng sử dụng kiến trúc AWS cloud toàn diện để hỗ trợ quản lý hiến máu, kết nối người hiến máu với các cơ sở y tế một cách hiệu quả. Hệ thống tích hợp nhiều dịch vụ AWS để cung cấp một giải pháp có thể mở rộng, bảo mật và tiết kiệm chi phí. Kiến trúc được mô tả chi tiết dưới đây:</p>
+<p><img src="/fcj-workshop/2-proposal/image/image.jpeg" alt="Kiến trúc Phần mềm Hỗ trợ Hiến máu"></p>
+<p><img src="/fcj-workshop/2-proposal/image/image1.jpeg" alt="Kiến trúc Nền tảng Hệ thống Hỗ trợ Hiến máu"></p>
+<p>Hệ thống được chia thành <strong>4 lớp chính</strong>:</p>
+<ol>
+<li>
+<p><em>Lớp Edge Networking:</em>
+<em>Route 53</em> quản lý domain và định tuyến DNS.
+<em>CloudFront</em> tăng tốc độ tải trang và phân phối nội dung tĩnh.
+<em>AWS WAF</em> bảo vệ chống lại các cuộc tấn công web (SQL injection, DDoS).</p>
+</li>
+<li>
+<p><em>Lớp Ứng dụng &amp; Dữ liệu:</em>
+<em>Amazon EC2</em>: Triển khai backend API và xử lý nghiệp vụ chính.
+<em>Amazon RDS (MySQL)</em>: Lưu trữ dữ liệu người hiến máu, nhóm máu, lịch sử hiến máu.
+<em>API Gateway</em>: Giao tiếp giữa frontend và backend.
+<em>Elastic Load Balancer (ELB)</em>: Phân phối tải đến các EC2 instances.
+<em>NAT Gateway &amp; Internet Gateway</em>: Hỗ trợ kết nối Internet an toàn.</p>
+</li>
+<li>
+<p><em>Lớp CI/CD &amp; DevOps:</em>
+<em>GitLab</em>: Quản lý mã nguồn.
+<em>AWS CodePipeline, CodeBuild</em>: Triển khai và cập nhật tự động.</p>
+</li>
+<li>
+<p><em>Lớp Giám sát &amp; Bảo mật:</em>
+<em>Amazon Cognito</em>: Xác thực và phân quyền (Guest, Member, Staff, Admin).
+<em>CloudWatch, CloudTrail, IAM, Secrets Manager</em>: Giám sát, bảo mật, cảnh báo hệ thống.
+<em>SNS</em>: Gửi thông báo khi có sự kiện (khẩn cấp về máu, người hiến máu phù hợp).</p>
+</li>
+</ol>
+<h3 id="4-triển-khai-kỹ-thuật">4. Triển khai kỹ thuật</h3>
+<p><em>Các giai đoạn triển khai</em></p>
+<ol>
+<li><em>Phân tích &amp; Thiết kế (Tháng 1)</em></li>
+</ol>
+<ul>
+<li>Thu thập yêu cầu, định nghĩa use cases, thiết kế ERD và kiến trúc AWS.</li>
+</ul>
+<ol start="2">
+<li><em>Thiết lập Hạ tầng &amp; Pipeline (Tháng 2)</em></li>
+</ol>
+<ul>
+<li>Cấu hình Route 53, CloudFront, EC2, RDS và CI/CD trên AWS.</li>
+</ul>
+<ol start="3">
+<li><em>Phát triển &amp; Kiểm thử (Tháng 3-4)</em></li>
+</ol>
+<ul>
+<li>Xây dựng các module chính: đăng ký hiến máu, tìm kiếm, quản lý ngân hàng máu.</li>
+<li>Tích hợp Cognito và hệ thống cảnh báo SNS.</li>
+</ul>
+<ol start="4">
+<li><em>Triển khai &amp; Vận hành (Tháng 5)</em></li>
+</ol>
+<ul>
+<li>Triển khai sản phẩm chính thức và giám sát với CloudWatch.</li>
+</ul>
+<p><strong>Yêu cầu kỹ thuật chính:</strong>
+<em>Frontend:</em> React/Next.js hoặc Angular (triển khai qua S3/CloudFront).
+<em>Backend:</em> Spring Boot trên EC2, giao tiếp qua REST API Gateway.
+<em>Database:</em> Amazon RDS MySQL, tối ưu query và backup định kỳ.
+<em>CI/CD:</em> GitLab → CodeBuild → CodePipeline → EC2.
+<em>Auth:</em> Cognito (4 vai trò: Guest, Member, Staff, Admin).
+<em>Alert &amp; Logs:</em> SNS + CloudWatch + CloudTrail.</p>
+<h3 id="5-lộ-trình--mốc-triển-khai">5. Lộ trình &amp; Mốc triển khai</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Lộ trình</th>
+          <th>Giai đoạn</th>
+          <th>Kết quả chính</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Tháng 1</strong></td>
+          <td>Phân tích yêu cầu &amp; thiết kế</td>
+          <td>Kiến trúc AWS + biểu đồ use case</td>
+      </tr>
+      <tr>
+          <td><strong>Tháng 2</strong></td>
+          <td>Thiết lập hạ tầng &amp; pipeline</td>
+          <td>EC2, RDS, API Gateway hoạt động</td>
+      </tr>
+      <tr>
+          <td><strong>Tháng 3–4</strong></td>
+          <td>Phát triển &amp; kiểm thử</td>
+          <td>Các module chính hoàn thiện</td>
+      </tr>
+      <tr>
+          <td><strong>Tháng 5</strong></td>
+          <td>Triển khai live</td>
+          <td>Hệ thống ổn định, có báo cáo Dashboard</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="6-ước-tính-ngân-sách">6. Ước tính ngân sách</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Dịch vụ</th>
+          <th>Chi phí ước tính/Tháng (USD)</th>
+          <th>Ghi chú</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>EC2 (t3.nano)</td>
+          <td>3.50</td>
+          <td>Backend REST API</td>
+      </tr>
+      <tr>
+          <td>Amazon RDS (MySQL)</td>
+          <td>2.80</td>
+          <td>20 GB storage</td>
+      </tr>
+      <tr>
+          <td>API Gateway</td>
+          <td>0.50</td>
+          <td>5,000 requests</td>
+      </tr>
+      <tr>
+          <td>CloudFront + S3</td>
+          <td>0.80</td>
+          <td>Website + CDN</td>
+      </tr>
+      <tr>
+          <td>Route 53</td>
+          <td>0.50</td>
+          <td>Domain &amp; DNS</td>
+      </tr>
+      <tr>
+          <td>Cognito</td>
+          <td>0.10</td>
+          <td>&lt;100 users</td>
+      </tr>
+      <tr>
+          <td>CloudWatch + Logs</td>
+          <td>0.30</td>
+          <td>Giám sát &amp; Cảnh báo</td>
+      </tr>
+      <tr>
+          <td>CI/CD (CodePipeline, CodeBuild)</td>
+          <td>0.40</td>
+          <td>Triển khai tự động</td>
+      </tr>
+      <tr>
+          <td><strong>Tổng</strong></td>
+          <td><strong>8.9 USD/tháng</strong></td>
+          <td>~106.8 USD/năm</td>
+      </tr>
+  </tbody>
+</table>
+<blockquote>
+<p>Tổng chi phí có thể thay đổi dựa trên AWS Free Tier hoặc việc sử dụng spot instance.</p></blockquote>
+<h3 id="7-đánh-giá-rủi-ro">7. Đánh giá rủi ro</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Rủi ro</th>
+          <th>Tác động</th>
+          <th>Xác suất</th>
+          <th>Giảm thiểu</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Mất kết nối Internet</td>
+          <td>Trung bình</td>
+          <td>Trung bình</td>
+          <td>Dự phòng trên EC2 Backup</td>
+      </tr>
+      <tr>
+          <td>Tấn công DDoS</td>
+          <td>Cao</td>
+          <td>Thấp</td>
+          <td>AWS WAF + CloudFront</td>
+      </tr>
+      <tr>
+          <td>Hư hỏng dữ liệu người dùng</td>
+          <td>Cao</td>
+          <td>Thấp</td>
+          <td>RDS Backup + IAM Restricted Access</td>
+      </tr>
+      <tr>
+          <td>Vượt quá chi phí</td>
+          <td>Trung bình</td>
+          <td>Thấp</td>
+          <td>AWS Budget Alert</td>
+      </tr>
+      <tr>
+          <td>Gián đoạn triển khai CI/CD</td>
+          <td>Thấp</td>
+          <td>Trung bình</td>
+          <td>Kiểm thử Pipeline trước khi Merge</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="8-kết-quả-kỳ-vọng">8. Kết quả kỳ vọng</h3>
+<p><em>Công nghệ:</em> Hệ thống cloud-native, CI/CD tự động, hỗ trợ đa người dùng và bảo mật cao.
+<em>Ứng dụng:</em> Giúp các cơ sở y tế quản lý hiến máu hiệu quả, tối thiểu hóa quy trình thủ công.
+<em>Mở rộng:</em> Có thể nhân rộng cho nhiều bệnh viện khác, tích hợp AI để phân tích nhu cầu nhóm máu hoặc dự đoán các đợt hiến máu sắp tới.</p>
+
+
+
+
+
+<footer class=" footline" >
+	
+</footer>
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/fcj-workshop/vi/1-worklog/1.12-week12/" title="Worklog Tuần 12"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/fcj-workshop/vi/3-blogstranslated/" title="Các bài blogs đã dịch" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/fcj-workshop/js/clipboard.min.js?1765262421"></script>
+    <script src="/fcj-workshop/js/perfect-scrollbar.min.js?1765262421"></script>
+    <script src="/fcj-workshop/js/perfect-scrollbar.jquery.min.js?1765262421"></script>
+    <script src="/fcj-workshop/js/jquery.sticky.js?1765262421"></script>
+    <script src="/fcj-workshop/js/featherlight.min.js?1765262421"></script>
+    <script src="/fcj-workshop/js/highlight.pack.js?1765262421"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/fcj-workshop/js/modernizr.custom-3.6.0.js?1765262421"></script>
+    <script src="/fcj-workshop/js/learn.js?1765262421"></script>
+    <script src="/fcj-workshop/js/hugo-learn.js?1765262421"></script>
+
+    <link href="/fcj-workshop/mermaid/mermaid.css?1765262421" rel="stylesheet" />
+    <script src="/fcj-workshop/mermaid/mermaid.js?1765262421"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    <script>
+  (function (i, s, o, g, r, a, m) {
+    i["GoogleAnalyticsObject"] = r;
+    ((i[r] =
+      i[r] ||
+      function () {
+        (i[r].q = i[r].q || []).push(arguments);
+      }),
+      (i[r].l = 1 * new Date()));
+    ((a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]));
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m);
+  })(
+    window,
+    document,
+    "script",
+    "https://www.google-analytics.com/analytics.js",
+    "ga",
+  );
+
+  ga("create", "UA-158079754-2", "auto");
+  ga("send", "pageview");
+</script>
+
+  </body>
+</html>
+
