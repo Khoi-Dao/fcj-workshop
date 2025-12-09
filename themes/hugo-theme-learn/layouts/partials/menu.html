@@ -59,11 +59,12 @@
                 </option>
                 {{ else }}
                 <option
-                  id="{{ $translation.Language }}"
-                  value="{{ $translation.Permalink }}"
-                >
-                  {{ .LanguageName }}
-                </option>
+  id="{{ $translation.Language }}"
+  value="{{ $translation.RelPermalink | relLangURL }}"
+  {{ if eq .Page.Lang $translation.Lang }} selected{{ end }}
+>
+  {{ $translation.LanguageName }}
+</option>
                 {{ end }} {{ end }} {{ end }} {{ end }}
               </select>
               <svg
